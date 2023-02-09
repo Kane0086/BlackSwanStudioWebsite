@@ -1,0 +1,66 @@
+.Banner {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+.dot-container {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  top: 80%;
+  width: 100%;
+}
+
+.big-banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.image-filter {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.unchecked-dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+
+.checked {
+  border-radius: 100%;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+}
