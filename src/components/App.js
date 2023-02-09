@@ -1,12 +1,14 @@
 import './../styles/App.css';
-import Header from '../components/Header';
-import Banner from '../components/Banner';
+import Header from './Header';
+import Banner from './Banner';
+import News from './News';
 
 function App() {
   return (
     <div>
       <Header />
       <Banner />
+      <News />
     </div>
   );
 }

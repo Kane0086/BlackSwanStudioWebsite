@@ -1,14 +1,6 @@
-h1,
-h2 {
-  color: white;
-  font-family: BSSFont;
-}
-
-h2 {
-  font-size: large;
-}
-
 .header-container {
+  font-family: BSSFont;
+  color: var(--white-color);
   position: sticky;
   top: 0%;
   display: flex;
@@ -41,11 +33,12 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   border-style: solid;
-  border-color: white;
+  border-color: var(--white-color);
   padding: 5%;
 }
 
 .connection {
+  font-size: large;
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
