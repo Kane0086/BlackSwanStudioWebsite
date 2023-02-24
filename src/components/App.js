@@ -5,6 +5,7 @@ import News from './News';
 import BusterSword from '../assets/img/ff7r.jpg';
 import Clive from '../assets/img/ff16.jpg';
 import Nier from '../assets/img/automata.jpg'
+import Games from './Games';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <CarouselItem img={Nier}>Item 3</CarouselItem>
       </Carousel>
       <News />
+      <Games />
     </div>
   );
 }

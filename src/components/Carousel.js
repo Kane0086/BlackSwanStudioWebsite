@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import '../styles/Carousel.css';
 import { useEffect } from 'react';
 
-export const CarouselItem = ({ children, width, img }) => {
+export const CarouselItem = ({ width, img }) => {
   return (
     <div className="carousel-item" style={{ width: width }}>
       <img className='image' src={img} alt='BlackSwanStudioGames'></img>
