@@ -17,7 +17,7 @@
 
 .title {
     font-size: xx-large;
-    color: black;
+    color: var(--black-color);
     letter-spacing: 5px;
     text-align: center;
 }

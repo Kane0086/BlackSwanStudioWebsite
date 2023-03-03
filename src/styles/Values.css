@@ -1,0 +1,61 @@
+.Values {
+  background-color: var(--black-color);
+  width: 100%;
+  height: 1000px;
+}
+
+.value-container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 50px;
+}
+
+.value-illustration {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.value-bubble {
+position: relative;
+  background-color: var(--white-color);
+  height: 600px;
+  width: 600px;
+  border-radius: 100%;
+  border: solid 5px black;
+  overflow: hidden;
+}
+
+.value-img {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.value-text {
+  color: var(--white-color);
+  text-align: justify;
+  height: 100%;
+}
+
+.value-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.value-title {
+    font-size: 50px;
+}
+
+.value-paragraph {
+    font-size: 20px;
+}

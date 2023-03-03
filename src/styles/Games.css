@@ -38,43 +38,43 @@
 }
 
 .main-game-text {
-    margin-top: 25px;
+  margin-top: 25px;
   margin-left: 50px;
   padding-right: 50px;
   width: 70%;
 }
 
 .button-container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row-reverse;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .go-button {
-    font-family: BSSFont;
-    font-size: x-large;
-    letter-spacing: 2px;
-    background-color: var(--white-color);
-    border-style: solid;
-    border-radius: 10px;
-    border-color: var(--black-color);
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    transition: 0.3s;
+  font-family: BSSFont;
+  font-size: x-large;
+  letter-spacing: 2px;
+  background-color: var(--white-color);
+  border-style: solid;
+  border-radius: 10px;
+  border-color: var(--black-color);
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .go-button:hover {
-    color: var(--white-color);
-    background-color: var(--black-color);
-    border-color: var(--white-color);
+  color: var(--white-color);
+  background-color: var(--black-color);
+  border-color: var(--white-color);
 }
 
 .sub-game-container {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

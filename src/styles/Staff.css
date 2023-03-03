@@ -1,0 +1,33 @@
+.Staff {
+    font-family: BSSFont;
+    position: relative;
+    height: 900px;
+    margin-top: 50px;
+  overflow: hidden;
+}
+
+.staff-title {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    font-size: xx-large;
+    color: var(--black-color);
+    letter-spacing: 5px;
+    transform: translate(-50%, 0);
+}
+
+.staff-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.staff-row {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--newsbox-color);
+    width: 100%;
+    height: 325px;
+}
