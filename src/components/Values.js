@@ -1,5 +1,4 @@
 import '../styles/Values.css';
-import anime from "animejs/lib/anime.es"
 import rocket from "../assets/img/rocket.svg"
 
 

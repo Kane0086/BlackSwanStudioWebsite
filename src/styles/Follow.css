@@ -1,0 +1,29 @@
+.Follow {
+    height: 700px;
+    width: 100%;
+}
+
+.follow-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--newsbox-color);
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.follow-network {
+    text-align: center;
+    margin: 5%;
+}
+
+.follow-logo {
+    background-color: var(--white-color);
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
