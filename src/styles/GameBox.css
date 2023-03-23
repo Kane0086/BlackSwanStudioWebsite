@@ -3,8 +3,6 @@
   position: relative;
   flex-direction: column;
   background-color: var(--newsbox-color);
-  width: 300px;
-  height: 300px;
   border-radius: 5px;
 }
 
@@ -15,7 +13,8 @@
 }
 
 .gamebox-image-container {
-    position: absolute;
+  max-width: 300px;
+  max-height: 300px;
     object-fit: contain;
 }
 

@@ -1,5 +1,5 @@
 import "../styles/Staff.css"
-import StaffBox from "../templates/StaffBox";
+import TeamBox from "../templates/TeamBox";
 
 function Staff() {
     return (
@@ -7,14 +7,15 @@ function Staff() {
             <h1 className="staff-title">STAFF</h1>
             <div className="staff-container">
                 <div className="staff-row">
-                    <StaffBox name="Team Member" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat dignissim, scelerisque erat eu, posuere felis. Vivamus non nunc imperdiet, hendrerit urna at, posuere felis."/>
-                    <StaffBox name="Team Member" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat dignissim, scelerisque erat eu, posuere felis. Vivamus non nunc imperdiet, hendrerit urna at, posuere felis."/>
-                    <StaffBox name="Team Member" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat dignissim, scelerisque erat eu, posuere felis. Vivamus non nunc imperdiet, hendrerit urna at, posuere felis."/>
+                    <TeamBox></TeamBox>
+                    <TeamBox></TeamBox>
+                    <TeamBox></TeamBox>
                 </div>
                 <div className="staff-row">
-                    <StaffBox name="Team Member" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat dignissim, scelerisque erat eu, posuere felis. Vivamus non nunc imperdiet, hendrerit urna at, posuere felis."/>
-                    <StaffBox name="Team Member" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat dignissim, scelerisque erat eu, posuere felis. Vivamus non nunc imperdiet, hendrerit urna at, posuere felis."/>
-                    <StaffBox name="Team Member" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat dignissim, scelerisque erat eu, posuere felis. Vivamus non nunc imperdiet, hendrerit urna at, posuere felis."/>
+                    <TeamBox></TeamBox>
+                    <TeamBox></TeamBox>
+                    <TeamBox></TeamBox>
+                    <TeamBox></TeamBox>
                 </div>
             </div>
         </section>

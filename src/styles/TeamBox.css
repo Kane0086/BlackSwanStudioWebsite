@@ -1,0 +1,52 @@
+.teambox-container {
+    position: relative;
+    height: 100%;
+    width: 250px;
+    background-color: var(--newsbox-color);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.TeamBox {
+    height: 100%;
+    transition: ease-in-out 0.3s;
+}
+
+.TeamBox.teambox-enter {
+    filter: blur(5px);
+}
+
+.teambox-name {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+}
+
+.TeamBoxDescription {
+    position: absolute;
+    color: var(--black-color);
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out 0.3s;
+    justify-content: center;
+}
+
+.TeamBoxDescription.enter-done {
+    opacity: 1;
+}
+
+.teambox-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

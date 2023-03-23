@@ -27,7 +27,7 @@
 .staff-row {
     display: flex;
     flex-direction: row;
-    background-color: var(--newsbox-color);
     width: 100%;
     height: 325px;
+    justify-content: space-evenly;
 }
