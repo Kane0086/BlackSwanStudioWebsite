@@ -8,7 +8,7 @@ import Clive from '../assets/img/ff16.jpg';
 import Nier from '../assets/img/automata.jpg'
 import Games from './Games';
 import Staff from './Staff';
-import Follow from './Follow';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Games />
       <Values />
       <Staff />
-      <Follow />
+      <Footer />
     </div>
   );
 }

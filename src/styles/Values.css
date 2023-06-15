@@ -1,30 +1,37 @@
 .Values {
   background-color: var(--black-color);
   width: 100%;
-  height: 1000px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .value-container {
   display: flex;
   height: 100%;
   flex-direction: row;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   gap: 50px;
+  justify-content: center;
 }
 
 .value-illustration {
   display: flex;
-  height: 100%;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.value-bubble-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .value-bubble {
-position: relative;
+  position: relative;
   background-color: var(--white-color);
-  height: 600px;
-  width: 600px;
+  height: 300px;
+  width: 300px;
   border-radius: 100%;
   border: solid 5px black;
   overflow: hidden;
@@ -43,6 +50,7 @@ position: relative;
   color: var(--white-color);
   text-align: justify;
   height: 100%;
+  width: 50%;
 }
 
 .value-text-container {
@@ -58,4 +66,27 @@ position: relative;
 
 .value-paragraph {
     font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .value-container {
+    flex-direction: column;
+    gap: 0;
+
+  }
+
+  .value-bubble-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .value-bubble {
+    width: 200px;
+    height: 200px;
+  }
+
+  .value-text {
+    width: 100%;
+  }
 }

@@ -1,33 +1,53 @@
 .Staff {
-    font-family: BSSFont;
-    position: relative;
-    height: 900px;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: BSSFont;
+  padding-top: 5%;
+  padding-bottom: 5%;
   overflow: hidden;
 }
 
 .staff-title {
-    position: absolute;
-    left: 50%;
-    text-align: center;
-    font-size: xx-large;
-    color: var(--black-color);
-    letter-spacing: 5px;
-    transform: translate(-50%, 0);
+  text-align: center;
+  font-size: xx-large;
+  color: var(--black-color);
+  letter-spacing: 5px;
 }
 
 .staff-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
 }
 
 .staff-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 325px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: space-evenly;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .staff-row {
+    overflow: scroll;
     justify-content: space-evenly;
+    gap: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .staff-row > div {
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+    .staff-row > div {
+      margin: 5%;
+    }
 }

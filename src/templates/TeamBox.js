@@ -8,18 +8,17 @@ function TeamBox({ img, name, text }) {
   return (
     <div className="teambox-container" onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)}>
       <div className={`TeamBox ${show ? 'teambox-enter' : ''}`}>
-        <div>
-          <img src={img} alt="" />
+        <div className='teambox-image-container'>
+          <img className='teambox-image' src={img} alt="" />
         </div>
         <div className="teambox-name">
-          <p>{name}LASTNAME Firstname</p>
+          <p>{name}</p>
         </div>
       </div>
       <CSSTransition in={show} unmountOnExit timeout={{ enter: 0, exit: 500 }}>
         <div className="TeamBoxDescription">
           <p className="teambox-text">
-            {text}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra leo metus, non malesuada est
-            faucibus sit amet. Integer at bibendum nisl.
+            {text}
           </p>
         </div>
       </CSSTransition>
