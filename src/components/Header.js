@@ -1,7 +1,7 @@
 import '../styles/Header.css';
 
 function Header() {
-  const title = 'Black Swan Studio';
+  const title = 'Turtles On Fire';
   return (
     <div className="header-container">
       <div className="bss-header">
