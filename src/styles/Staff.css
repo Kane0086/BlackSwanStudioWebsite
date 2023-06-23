@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 850px) {
-    .staff-row > div {
-      margin: 5%;
-    }
+  .staff-row > div {
+    margin: 5%;
+  }
 }
