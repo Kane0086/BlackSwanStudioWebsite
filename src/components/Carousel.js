@@ -59,16 +59,6 @@ const Carousel = ({ children }) => {
               <div className={index.current === 1 ? 'checked' : ''}></div>
             </div>
           </ul>
-          <ul>
-            <div
-              className="unchecked-dot"
-              onClick={() => {
-                updateIndex(2);
-              }}
-            >
-              <div className={index.current === 2 ? 'checked' : ''}></div>
-            </div>
-          </ul>
         </li>
       </div>
     </div>

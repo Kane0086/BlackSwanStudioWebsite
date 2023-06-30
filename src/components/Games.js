@@ -1,12 +1,14 @@
 import './../styles/Games.css';
 import celeste from '../assets/img/Coronite.png';
-// import GameBox from '../templates/GameBox';
-// import persona5 from '../assets/img/p5.jpg';
-// import yakuza from '../assets/img/yakuza.jpg';
-// import ffxv from '../assets/img/ffxv.jpg';
-// import ffvii from '../assets/img/ffvii.webp';
+import GameBox from '../templates/GameBox';
+import UmamiIsland from '../assets/img/UmamiIsland.png';
 
 function Games() {
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+    if (newWindow) newWindow.opener = null;
+  };
+
   return (
     <section className="Games">
       <h1 className="title">GAMES</h1>
@@ -24,17 +26,14 @@ function Games() {
             "Coronite" ?
           </p>
           <div className="button-container">
-            <button className="go-button">
+            <button className="go-button" onClick={() => openInNewTab('https://turtles-on-fire.itch.io/coronite')}>
               GO
             </button>
           </div>
         </div>
       </div>
       <div className="sub-game-container">
-        {/* <GameBox img={ffvii} alt="Final Fantasy VII Remake" />
-        <GameBox img={persona5} alt="Persona 5R" />
-        <GameBox img={ffxv} alt="Final Fantasy XV" />
-        <GameBox img={yakuza} alt="yakuza" /> */}
+        <GameBox img={UmamiIsland} alt="Final Fantasy VII Remake" />
       </div>
     </section>
   );
