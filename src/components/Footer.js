@@ -17,7 +17,7 @@ function Footer() {
             <img className="social-logo" src={instagram} alt="Instagram" />
           </button>
           <button className="social-button">
-            <img className="social-logo" src={linkedin} alt="LinkedIn" />
+            <img onClick={() => window.open("https://www.linkedin.com/company/turtles-on-fire/?originalSubdomain=fr", "_blank")} className="social-logo" src={linkedin} alt="LinkedIn" />
           </button>
         </div>
       </div>
@@ -30,8 +30,6 @@ function Footer() {
         <p className="footer-text">C.G.U</p>
         <div className="vl-footer"></div>
         <p className="footer-text">Cookies</p>
-        <div className="vl-footer"></div>
-        <p className="footer-text">Newsletter</p>
       </div>
     </section>
   );

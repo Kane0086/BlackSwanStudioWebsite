@@ -19,6 +19,7 @@ function Staff() {
                     <TeamBox img={quentin} name="CHARPENTIER Quentin" text=""></TeamBox>
                     <TeamBox img={abdoul} name="GUERROUDJ Abdoul" text=""></TeamBox>
                     <TeamBox img={madeleine} name="PEILLON Madeleine" text="Musicienne de formation, créée l'identité musicale des jeux."></TeamBox>
+                    <TeamBox name="ORESKOV Eric" text="Directeur scénaristique ''Je mets en place le scénario des jeux du studio"></TeamBox>
                     <TeamBox></TeamBox>
                 </div>
             </div>
