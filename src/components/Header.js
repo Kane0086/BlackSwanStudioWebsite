@@ -9,9 +9,9 @@ function Header() {
           <h1 className="bss-title">{title}</h1>
         </div>
         <div className="connection-container">
-          <div className="connection-frame">
+          {/* <div className="connection-frame">
             <h2 className="connection">Connexion</h2>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
