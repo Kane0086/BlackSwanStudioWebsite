@@ -16,11 +16,11 @@ function Staff() {
                     <TeamBox img={andrea} name="POUPARD Andréa" text="Responsable de la direction stratégique de l'entreprise et de la prise de décisions importantes."></TeamBox>
                     <TeamBox img={paul} name="LYNCH Paul" text="Définit la stratégie marketing globale et crée du contenu engageant."></TeamBox>
                     <TeamBox img={theo} name="RIVIERE Théo" text="Elabore les visuels des jeux et l'identité graphique du studio."></TeamBox>
-                    <TeamBox img={quentin} name="CHARPENTIER Quentin" text=""></TeamBox>
-                    <TeamBox img={abdoul} name="GUERROUDJ Abdoul" text=""></TeamBox>
+                    <TeamBox img={quentin} name="CHARPENTIER Quentin" text="Travaille activement pour rendre l'expérience de jeu agréable."></TeamBox>
+                    <TeamBox img={abdoul} name="GUERROUDJ Abdoul" text="Explore différentes perspectives pour enrichir et faire évoluer le gameplay."></TeamBox>
                     <TeamBox img={madeleine} name="PEILLON Madeleine" text="Musicienne de formation, créée l'identité musicale des jeux."></TeamBox>
-                    <TeamBox name="ORESKOV Eric" text="Directeur scénaristique ''Je mets en place le scénario des jeux du studio"></TeamBox>
-                    <TeamBox></TeamBox>
+                    <TeamBox name="ORESKOV Eric" text='Directeur scénaristique "Je mets en place le scénario des jeux du studio".'></TeamBox>
+                    <TeamBox name="BASSAGAL Louis" text="Passionné de développement de mécaniques de jeu immersives."></TeamBox>
                 </div>
             </div>
         </section>
