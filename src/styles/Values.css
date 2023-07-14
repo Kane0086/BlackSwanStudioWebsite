@@ -38,12 +38,12 @@
 }
 
 .value-img {
-    position: absolute;
-    width: 70%;
-    height: 70%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .value-text {
@@ -61,23 +61,27 @@
 }
 
 .value-title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .value-list {
   display: flex;
   flex-direction: column;
+  list-style: inside;
+}
+
+ul .value-list {
+  list-style: inside;
 }
 
 .value-paragraph {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1200px) {
   .value-container {
     flex-direction: column;
     gap: 0;
-
   }
 
   .value-bubble-container {
