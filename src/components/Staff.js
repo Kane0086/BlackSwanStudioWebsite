@@ -5,7 +5,9 @@ import theo from "../assets/team/theo.jpg"
 import abdoul from "../assets/team/abdoul.jpg"
 import quentin from "../assets/team/Quentin.jpg"
 import madeleine from "../assets/team/madelaine.jpg"
+import l from "../assets/team/L.jpg"
 import TeamBox from "../templates/TeamBox";
+import eric from "../assets/team/eric.jpg"
 
 function Staff() {
     return (
@@ -19,8 +21,8 @@ function Staff() {
                     <TeamBox img={quentin} name="CHARPENTIER Quentin" text="Travaille activement pour rendre l'expérience de jeu agréable."></TeamBox>
                     <TeamBox img={abdoul} name="GUERROUDJ Abdoul" text="Explore différentes perspectives pour enrichir et faire évoluer le gameplay."></TeamBox>
                     <TeamBox img={madeleine} name="PEILLON Madeleine" text="Musicienne de formation, créée l'identité musicale des jeux."></TeamBox>
-                    <TeamBox name="ORESKOV Eric" text='Directeur scénaristique "Je mets en place le scénario des jeux du studio".'></TeamBox>
-                    <TeamBox name="BASSAGAL Louis" text="Passionné de développement de mécaniques de jeu immersives."></TeamBox>
+                    <TeamBox img={eric} name="ORESKOV Eric" text='Directeur scénaristique "Je mets en place le scénario des jeux du studio".'></TeamBox>
+                    <TeamBox img={l} name="BASSAGAL Louis" text="Passionné de développement de mécaniques de jeu immersives."></TeamBox>
                 </div>
             </div>
         </section>
